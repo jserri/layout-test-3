@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+html, body {
+    height: 100vh;
+    background-color:#ff9999;
+}
+
+nav {
+    height: 69px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-nav {
+    width: 90%;
+    display: flex;
+}
+
+.wrapper-logo-smart {
+    display: none;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: chocolate;
+}
