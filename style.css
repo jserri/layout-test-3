@@ -16,13 +16,16 @@ nav {
     width: 100%;
     background-color: teal;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .wrapper-nav {
     width: 90%;
+    height: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .wrapper-logo-smart {
@@ -35,3 +38,41 @@ nav {
     padding: 5px;
     background-color: chocolate;
 }
+
+.box-link {
+    width: 100px;
+    height: 20px;
+    background-color: lightpink;
+}
+
+.wrapper-searchbar > input {
+    width: 300px;
+    height: 30px;
+}
+
+.wrapper-link-right {
+    display: flex;
+    gap: 5px;
+}
+
+.wrapper-utility {
+    display: flex;
+    gap: 15px;
+}
+
+.wrapper-utility > .utility-box {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: chocolate;
+    transform: rotate(45deg);
+}
+
+.profile-rounded {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
