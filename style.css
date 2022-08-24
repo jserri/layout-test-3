@@ -182,7 +182,7 @@ wrapper-title-card-sm{
 .wrapper-card {
     position: absolute;
     right: 250px;
-    bottom: 20px;
+    bottom: -200px;
     width: 250px;
     height: 450px;
     background-color: darkgreen;
@@ -208,4 +208,81 @@ wrapper-title-card-sm{
     width: 200px;
     height: 250px;
     background-color: cadetblue;
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper-card {
+        right: 150px;
+        bottom: -200px;
+    }
+
+    .wrapper-main-content > .wrapper-content-1 > .wrapper-title {
+        width: 95%;
+    }
+
+    .wrapper-content-2 > .wrapper-title-2 {
+        width: 95%;
+        margin: 2rem auto 0;
+    }
+
+    .wrapper-content-2 > .wrapper-comment-section {
+        width: 95%;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .wrapper-nav {
+        width: 95%;
+    }
+
+    .wrapper-searchbar > input {
+        width: 150px;
+        height: 30px;
+        display: none;
+    }
+
+    .box-content-1 {
+    width: 300px;
+    height: 100px;
+    background-color: lavender;
+    }
+
+    .box-subcontent-1 {
+        width: 250px;
+        height: 60px;
+        background-color: lavender;
+    }
+
+    .box-title-2 {
+        width: 200px;
+        height: 25px;
+        background-color: lavender;
+    }
+
+    .wrapper-content-2 > .wrapper-comment-section > .comment-title {
+        width: 45%;
+    }
+
+    .wrapper-comment-section > .comment-description {
+        width: 45%;
+    }
+
+    .wrapper-card {
+        right: 30px;
+        bottom: -150px;
+        width: 200px;
+        height: 350px;
+    }
+
+    .header-card {
+        width: 180px;
+    }
+
+    .footer-card {
+        width: 180px;
+        height: 150px;
+        background-color: cadetblue;
+    }
 }
