@@ -87,6 +87,10 @@ wrapper-title-card-sm{
     flex-direction: column;
 }
 
+.header-card-desktop {
+    display: none;
+}
+
 .wrapper-main-content > .wrapper-content-1 {
     width: 100%;
     background-color: firebrick;
@@ -182,7 +186,7 @@ wrapper-title-card-sm{
 .wrapper-card {
     position: absolute;
     right: 250px;
-    bottom: -200px;
+    bottom: 35px;
     width: 250px;
     height: 450px;
     background-color: darkgreen;
@@ -213,7 +217,7 @@ wrapper-title-card-sm{
 @media screen and (max-width: 1280px) {
     .wrapper-card {
         right: 150px;
-        bottom: -200px;
+        bottom: 30px;
     }
 
     .wrapper-main-content > .wrapper-content-1 > .wrapper-title {
@@ -271,7 +275,7 @@ wrapper-title-card-sm{
 
     .wrapper-card {
         right: 30px;
-        bottom: -150px;
+        bottom: 75px;
         width: 200px;
         height: 350px;
     }
@@ -284,5 +288,102 @@ wrapper-title-card-sm{
         width: 180px;
         height: 150px;
         background-color: cadetblue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper-logo-smart {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .wrapper-logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper-link-left {
+        display: none;
+    }
+
+    .wrapper-link-right {
+        display: none;
+    }
+
+    .wrapper-utility {
+        display: none;
+    }
+
+    .wrapper-profile {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-card-desktop {
+        width: 90%;
+        height: 150px;
+        background-color: coral;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .wrapper-main-content > .wrapper-content-1 > .wrapper-title {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 3rem auto 0;
+    }
+
+    .box-title-1 {
+        width: 65%;
+    }
+
+    .box-content-1 {
+        width: 85%;
+    }
+
+    .box-subcontent-1 {
+        width: 75%;
+    }
+
+    .wrapper-content-2 > .wrapper-title-2 {
+        width: 90%;
+        margin: 2rem auto 0;
+    }
+
+    .wrapper-content-2 > .wrapper-comment-section {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .wrapper-content-2 > .wrapper-comment-section > .comment-title {
+        width: 80%;
+    }
+
+    .wrapper-comment-section > .comment-description {
+        width: 80%;
+    }
+
+    .header-card {
+        display: none;
+    }
+
+    .wrapper-card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50px;
+        position: sticky;
+        bottom: 0;
+    }
+
+    .footer-card {
+        height: 30px;
     }
 }
