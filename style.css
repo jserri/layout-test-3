@@ -181,9 +181,31 @@ wrapper-title-card-sm{
 
 .wrapper-card {
     position: absolute;
-    right: 300px;
-    bottom: -175px;
+    right: 250px;
+    bottom: 20px;
     width: 250px;
-    height: 400px;
+    height: 450px;
     background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-card {
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+}
+
+.center-card {
+    width: 100px;
+    height: 30px;
+    background-color: tomato;
+}
+
+.footer-card {
+    width: 200px;
+    height: 250px;
+    background-color: cadetblue;
 }
